@@ -12,11 +12,11 @@ import {
 import { MoodContext } from '../context/MoodContext';
 import { analyzeTextWithAI } from '../services/aiService';
 
-// Duyguya göre arka plan renkleri (daha dikkat çeken)
+// Duyguya göre arka plan renkleri 
 const moodBackgrounds = {
-  positive: '#FFD91AFF', // canlı sıcak sarı
-  neutral:  '#C8BDADFF', // krem / bej
-  negative: '#414040FF', // soft kırmızı / pembe
+  positive: '#FFD91AFF', 
+  neutral:  '#C8BDADFF', 
+  negative: '#414040FF', 
 };
 
 function DailyEntryScreen() {
