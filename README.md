@@ -20,7 +20,7 @@ EmotionAI, kullanıcının günlük metin girişlerinden duygu durumunu analiz e
 - Kullanıcının tüm kayıtlarını tarih sırasıyla gösterir.
 - Renk kodlu duygularla birlikte listelenir.
 
-### 📊 Haftalık Özet (Weekly Summary)
+### Haftalık Özet (Weekly Summary)
 - Kullanıcının son 7 güne ait duygu yüzdelerini hesaplar.
 - Pozitif – Negatif – Nötr oranlarını grafiksel olarak sunar.
 - İnternet gerekmez, tamamen yerel verilerden hesaplanır.
@@ -42,6 +42,19 @@ EmotionAI, kullanıcının günlük metin girişlerinden duygu durumunu analiz e
 
 ---
 
+## Uygulama Ekranları
+
+| Ekran | Açıklama |
+|------|----------|
+| ![Daily Entry – başlangıç](app-screen/entry.png) | Kullanıcının günlük duygu metnini girdiği, analiz yapılmamış varsayılan giriş ekranı. |
+| ![Daily Entry – pozitif sonuç](app-screen/entry1.png) | Analiz sonucunun pozitif olduğu durumda, parlak arka plan ve metinle gösterilen geri bildirim ekranı. |
+| ![Daily Entry – negatif sonuç](app-screen/entry2.png) | Metnin olumsuz veya ağır bir duygu taşıması durumunda gösterilen, koyu temalı geri bildirim ekranı. |
+| ![Daily Entry – nötr sonuç](app-screen/entry3.png) | Duygu tonunun nötre yakın olduğu, dengeli bir ruh halinin gösterildiği analiz sonucu ekranı. |
+| ![History – geçmiş kayıtlar](app-screen/history.png) | Kullanıcının önceki tüm girişlerini tarih ve duygu etiketiyle listeleyen geçmiş ekranı. |
+| ![Weekly Summary – haftalık özet](app-screen/summary.png) | Son 7 güne ait pozitif, nötr ve negatif duygu oranlarını yüzdesel ve sayısal olarak gösteren haftalık özet ekranı. |
+
+---
+
 ## Kullanılan Teknolojiler
 
 | Alan | Teknoloji |
@@ -52,7 +65,7 @@ EmotionAI, kullanıcının günlük metin girişlerinden duygu durumunu analiz e
 | Depolama | AsyncStorage |
 | Arayüz | React Native Components |
 | Splash | react-native-bootsplash |
-| Duygu Analizi | Hafif ve hızlı bir dış servis entegrasyonu |
+| Duygu Analizi | HuggingFace ücretsiz sentiment modeli |
 
 ---
 
@@ -77,7 +90,7 @@ EmotionAi/
 
 ---
 
-## 🔧 Çalıştırma
+## Çalıştırma
 
 ### 1. Gerekli paketleri yükle
 ```
@@ -96,12 +109,12 @@ npx react-native run-android
 
 ---
 
-## 📌 Notlar
+## Notlar
 - Tüm analiz sonuçları cihazda saklandığı için kullanıcı verisi hiçbir yere gönderilmez.
 - Uygulama offline durumda da tamamen çalışabilir.
 - Hafif, modern ve pratik bir günlük & duygu takip çözümüdür.
 
 ---
 
-## 👩‍💻 Geliştiren
+## Geliştiren
 **Sevgi Nur Öksüz**
