@@ -23,7 +23,7 @@ EmotionAI, kullanıcının günlük metin girişlerinden duygu durumunu analiz e
 ### Haftalık Özet (Weekly Summary)
 - Kullanıcının son 7 güne ait duygu yüzdelerini hesaplar.
 - Pozitif – Negatif – Nötr oranlarını grafiksel olarak sunar.
-- İnternet gerekmez, tamamen yerel verilerden hesaplanır.
+
 
 ### Modern ve Basit Arayüz
 - Güncel React Native UI prensipleriyle minimal tasarım.
@@ -111,7 +111,6 @@ npx react-native run-android
 
 ## Notlar
 - Tüm analiz sonuçları cihazda saklandığı için kullanıcı verisi hiçbir yere gönderilmez.
-- Uygulama offline durumda da tamamen çalışabilir.
 - Hafif, modern ve pratik bir günlük & duygu takip çözümüdür.
 
 ---
