@@ -65,7 +65,7 @@ EmotionAI, kullanıcının günlük metin girişlerinden duygu durumunu analiz e
 | Depolama | AsyncStorage |
 | Arayüz | React Native Components |
 | Splash | react-native-bootsplash |
-| Duygu Analizi | HuggingFace ücretsiz sentiment modeli |
+| Duygu Analizi | HuggingFace ücretsiz sentiment modeli | Bakınız: https://huggingface.co/tabularisai/multilingual-sentiment-analysis |
 
 ---
 
