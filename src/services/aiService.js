@@ -2,7 +2,7 @@ const HF_API_URL =
   'https://router.huggingface.co/hf-inference/models/tabularisai/multilingual-sentiment-analysis';
 
 
-const HF_API_TOKEN = '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';
+const HF_API_TOKEN = '*********************';
 
 export async function analyzeTextWithAI(text) {
   try {
